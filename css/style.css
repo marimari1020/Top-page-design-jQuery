@@ -1,0 +1,419 @@
+img {
+ max-width: 100%;
+ max-height: 100%;
+ width: auto;
+ height: auto;
+}
+
+h2{
+	margin-bottom:1em;
+}
+
+/*Top */
+
+.landing-hero-wrap{
+
+ width: 100vw;
+ height: 100vh;
+		background-image: url('../images/top-main-image.jpg') ; 
+		background-repeat:no-repeat;
+	background-size:cover;
+		background-position:center center; 
+}
+
+.landing-hero {
+
+
+position: relative;
+	padding-top: 5em;
+
+}
+
+.message-block{
+	background:rgba(255,255,255,.89);
+	box-shadow:2px 2px 24px 0 rgba(0,0,0,.4);
+	
+}
+
+
+@media screen and (min-width: 768px) {
+.message-block{
+	padding: 2em;
+	bottom:0;
+	margin: 7em 30em 0em 0em;
+	
+}
+}
+@media screen and (max-width:1024px){
+.message-block{
+	padding: 2em;
+	bottom:0;
+	margin: 7em 0em 0em 0em;
+	
+}
+}
+
+
+
+.message-block p{
+	padding: 2%;
+}
+
+.search-box{
+	position:fixed;
+	top:0;
+
+	}
+
+
+.learn{
+	border-bottom: solid 2px #2BBF82;
+	font-size: 3em;
+		font-family:  Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;
+}
+
+/*Navigation*/
+
+
+
+.navbar-items{
+	margin-right: 1em;
+}
+
+
+.navbar-color{
+	background:linear-gradient(180deg, rgba(0,0,0,0.4) 40%, transparent 90%);
+	
+}
+
+
+.cls-1, .cls-1 a{
+	fill: #fff;
+	color:#fff;
+	text-decoration: none;
+
+}
+
+
+.navbar-wrap, .navbar-wrap a{
+	color:#fff;
+
+}
+.navbar-wrap a:hover{
+	color:#BBF5D5;
+}
+
+
+.navbar-wrap-sub, .navbar-wrap-sub a{
+	position: relative; 
+	bottom: 0;
+	color:#333;
+	font-weight: 800;
+
+
+}
+
+.navbar-wrap-sub{
+
+    width: 100%; 
+	padding-top:2em;
+	
+	
+	
+	  -webkit-box-shadow: 0 5px 3px #cccccc ;
+  -moz-box-shadow: 0 5px 3px #ccccc ; 
+  box-shadow: 0 5px 3px #ccccc ; 
+
+
+}
+
+.navbar-wrap-sub a:hover {
+	text-decoration: none;
+   border-bottom: 1px solid #FC002D;
+	padding-bottom: 0.5em;
+
+}
+
+
+
+/*Event*/
+
+.home-main{
+	background-color: #2BBF82;
+
+
+    display: flex;
+  justify-content: center;
+
+	width: 40px;
+height: 40px;
+	margin: 1em;
+		
+}
+.arrow-button{
+	position: absolute;
+	bottom: 0;
+	right:0;
+}
+
+.home-main-center{
+	background-color: #666;
+	display: flex;
+  justify-content: center;
+
+	
+	width: 40px;
+height: 40px;
+	position: relative;
+
+		
+}
+
+
+.arrow-button-top{
+	width: 100px;
+height: 40px;
+
+	background-color: #999;
+	margin-left:1em;
+
+
+
+
+}
+
+.home-main-top{
+	background-color: #2BBF82;
+	display: flex;
+  justify-content: center;
+
+	
+	width: 40px;
+height: 40px;
+	position: relative;
+
+		
+}
+
+
+
+
+.arrow-button-center{
+	width: 100px;
+height: 40px;
+
+	background-color: #999;
+	margin-top: 2em;
+
+
+
+
+}
+.event-text-wrap{
+	padding:1.5em;
+	word-wrap: break-word;
+}
+.utility{
+	margin-right: 10%;
+	color: #2BBF82;
+}
+.event-one{
+
+	margin-bottom: 8%;
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.event-one h4{
+	font-weight: 600;
+	margin-top:1em;
+	margin-bottom:1em;
+}
+
+.event-content{
+	 position: relative;
+ display: table-cell;
+}
+
+.event-content img{
+	 vertical-align: middle;
+}
+
+.wpb_wrapper{
+	position:relative;
+
+	text-align: center;
+
+
+
+}
+.wpb_word{
+	font-family:  Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;
+	font-size: 1.2em;
+	padding-top: 2%;
+	padding-bottom: 2%;
+
+}
+
+.author{
+	padding-top: 2%;
+	padding-bottom: 2%;
+	font-size: 1.2em;
+
+}
+.wpb_column h3{
+	font-weight: 400;
+	font-size: 1.2em;
+}
+.wpb_wrapper_blue{
+	background-color:#2BBF82;
+	color: #fff;
+	padding: 2em ;
+
+}
+.wpb_wrapper_blue_second{
+	background-color:#2BBF82;
+	color: #fff;
+
+	padding: 2em 0 2em 0;
+}
+.wpb_wrapper_blue_third{
+	background-color:#2EBDD3;
+	color: #fff;
+		padding: 2em 0 2em 0;
+
+}
+.wpb_column{
+	margin-top:2%;
+	margin-bottom:2%;
+	text-align: center;
+
+}
+
+.wpb_wrapper h2{
+	font-size: 2.5em;;
+
+}
+
+.link-row{
+
+		background-color: #606060;
+	padding: 2em 5em 2em 5em;
+}
+
+
+.wpb_text_column span{
+		font-size: 1.5em;
+
+
+		border-bottom: solid 2px #2BBF82;
+}
+
+.feature-wrapper{
+
+
+	position:absolute;
+	z-index:1;
+	background-color: #fff;
+	
+
+
+}
+
+
+
+
+@media screen and (max-width: 768px) /* Small screen */
+{
+	.feature-wrapper{
+		top:50px;
+		margin: 2em 1em 1em 1em;
+	}
+	.wpb_text_column{
+		padding: 2em;
+	}
+	.feature-img-wrapper{
+		background-image: url('../images/comqello.jpg'); 
+		background-position:center center; 
+		background-size:cover;
+	}
+}
+
+@media screen and (min-width:769px)  /* Large screen */
+{    
+
+	.feature-wrapper{
+		top:90px;
+		margin: 2em 10em 1em 2em;
+
+	}
+	.wpb_text_column{
+		padding:3em 5em;
+
+
+	}
+	.feature-img-wrapper{
+		margin-top:7em;
+		background-image: url('../images/comqello.jpg'); 
+	
+		background-position:center center; 
+	}
+}
+
+
+
+
+.feature-img-wrapper{
+		background-image: url('../images/comqello.jpg'); 
+	 width: 100vw;
+
+
+	height:  300px; 
+
+}
+
+@media screen and (min-width: 720px) {
+.menu-item{
+  display: inline;
+  padding: 0 20px;
+}
+}
+
+
+.menu-item, .menu-item a{
+	color: #fff;
+	text-decoration: none;
+	
+}
+
+/*Footer*/
+
+.social-footer{
+		margin-left: 3em;
+
+}
+
+.social-footer li{
+	  display: inline;
+  padding: 0 10px;
+
+	
+}
+
+.footer-logo{
+	color:#fff;
+	padding-left: 2em;
+
+	
+}
+.contact-info{
+	color: #EFEFEF;
+}
+.copyright-row{
+	background-color: #393939;
+	padding: 2em 5em 2em 5em;
+	
+}
+.copyright-logo{
+	    display: flex;
+    align-items:center;
+}
