@@ -1,3 +1,5 @@
+
+
 img {
  max-width: 100%;
  max-height: 100%;
@@ -95,13 +97,45 @@ position: relative;
 }
 
 
-.navbar-wrap, .navbar-wrap a{
-	color:#fff;
+.home-icon, .products-icon, .services-icon {
+	color:#fff; 
 
 }
-.navbar-wrap a:hover{
-	color:#BBF5D5;
+
+
+.home-icon-style , .products-icon-style , .services-icon-style {
+		margin-right: 60px;
+	text-align: center;
+		color:#fff; 
 }
+
+.home-icon-style svg, .products-icon-style svg , .services-icon-style svg {
+		margin-bottom:-10px;
+}
+
+
+
+.home-icon path, .products-icon path, .services-icon  path  {
+	fill:#fff;
+	-webkit-transition: fill 0.3s ease-out;
+ -moz-transition: fill 0.3s ease-out;
+ -o-transition: fill 0.3s ease-out;
+ -ms-transition: fill 0.3s ease-out;
+ transition: fill 0.3s ease-out;
+}
+
+.home-icon a:hover path{
+	fill:#2BBF82;
+}
+
+.products-icon a:hover path{
+	fill: #E88080;
+}
+
+.services-icon a:hover path{
+	fill:#49A7FC;
+}
+
 
 
 .navbar-wrap-sub, .navbar-wrap-sub a{
@@ -402,9 +436,40 @@ height: 40px;
 .footer-logo{
 	color:#fff;
 	padding-left: 2em;
-
-	
 }
+
+.menu-item a{
+	color:#fff;
+-webkit-transition: color 0.3s ease-out;
+ -moz-transition: color 0.3s ease-out;
+ -o-transition: color 0.3s ease-out;
+ -ms-transition: color 0.3s ease-out;
+ transition: color 0.3s ease-out;
+}
+.menu-item a:hover {
+   color: #D0D0D0;   
+}
+
+
+/* social-footer-icon */
+
+
+.social-footer-icon a{
+	fill: #fff;
+	-webkit-transition: fill 0.3s ease-out;
+ -moz-transition: fill 0.3s ease-out;
+ -o-transition: fill 0.3s ease-out;
+ -ms-transition: fill 0.3s ease-out;
+ transition: fill 0.3s ease-out;
+}
+
+.social-footer-icon a:hover {
+   fill: #D0D0D0;
+}
+
+
+
+
 .contact-info{
 	color: #EFEFEF;
 }
