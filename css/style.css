@@ -95,7 +95,6 @@ position: relative;
 }
 
 
-<<<<<<< HEAD
 .home-icon, .products-icon, .services-icon {
 	color:#fff; 
 
@@ -103,24 +102,10 @@ position: relative;
 
 
 .home-icon-style , .products-icon-style , .services-icon-style {
-			margin-right: 60px;
-	text-align: center; 
+		margin-right: 60px;
+	text-align: center;
 		color:#fff; 
 }
-
-button[aria-expanded="false"]:after {
-  /*text-align: left;*/
-
-	
-}
-
-butto[aria-expanded="true"]:after {
-  /*text-align: center;*/
-
-}
-
-
-
 
 .home-icon-style svg, .products-icon-style svg , .services-icon-style svg {
 		margin-bottom:-10px;
@@ -140,10 +125,8 @@ butto[aria-expanded="true"]:after {
 .home-icon a:hover path{
 	fill:#2BBF82;
 }
-=======
 .navbar-wrap, .navbar-wrap a{
 	color:#fff;
->>>>>>> parent of 56c7947... 2nd commit
 
 }
 .navbar-wrap a:hover{
