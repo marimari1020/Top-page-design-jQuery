@@ -104,10 +104,24 @@ position: relative;
 
 
 .home-icon-style , .products-icon-style , .services-icon-style {
-		margin-right: 60px;
-	text-align: center;
+			margin-right: 60px;
+	text-align: center; 
 		color:#fff; 
 }
+
+button[aria-expanded="false"]:after {
+  /*text-align: left;*/
+
+	
+}
+
+butto[aria-expanded="true"]:after {
+  /*text-align: center;*/
+
+}
+
+
+
 
 .home-icon-style svg, .products-icon-style svg , .services-icon-style svg {
 		margin-bottom:-10px;
