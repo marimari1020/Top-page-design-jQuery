@@ -12,48 +12,38 @@ h2{
 /*Top */
 
 .landing-hero-wrap{
-
- width: 100vw;
- height: 100vh;
-		background-image: url('../images/top-main-image.jpg') ; 
-		background-repeat:no-repeat;
+	width: 100vw;
+ 	height: 100vh;
+	background-image: url('../images/top-main-image.jpg') ; 
+	background-repeat:no-repeat;
 	background-size:cover;
-		background-position:center center; 
+	background-position:center center; 
 }
 
 .landing-hero {
-
-
-position: relative;
+	position: relative;
 	padding-top: 5em;
-
 }
 
 .message-block{
 	background:rgba(255,255,255,.89);
 	box-shadow:2px 2px 24px 0 rgba(0,0,0,.4);
-	
 }
-
 
 @media screen and (min-width: 768px) {
-.message-block{
-	padding: 2em;
-	bottom:0;
-	margin: 7em 30em 0em 0em;
-	
-}
+	.message-block{
+		padding: 2em;
+		bottom:0;
+		margin: 7em 30em 0em 0em;
+	}
 }
 @media screen and (max-width:1024px){
-.message-block{
-	padding: 2em;
-	bottom:0;
-	margin: 7em 0em 0em 0em;
-	
+	.message-block{
+		padding: 2em;
+		bottom:0;
+		margin: 7em 0em 0em 0em;
+	}
 }
-}
-
-
 
 .message-block p{
 	padding: 2%;
@@ -62,30 +52,22 @@ position: relative;
 .search-box{
 	position:fixed;
 	top:0;
-
-	}
-
+}
 
 .learn{
 	border-bottom: solid 2px #2BBF82;
 	font-size: 3em;
-		font-family:  Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;
+	font-family:  Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;
 }
 
 /*Navigation*/
-
-
-
 .navbar-items{
 	margin-right: 1em;
 }
 
-
 .navbar-color{
 	background:linear-gradient(180deg, rgba(0,0,0,0.4) 40%, transparent 90%);
-	
 }
-
 
 .cls-1, .cls-1 a{
 	fill: #fff;
@@ -102,9 +84,9 @@ position: relative;
 
 
 .home-icon-style , .products-icon-style , .services-icon-style {
-		margin-right: 60px;
+	margin-right: 60px;
 	text-align: center;
-		color:#fff; 
+	color:#fff; 
 }
 
 .home-icon-style svg, .products-icon-style svg , .services-icon-style svg {
@@ -124,6 +106,12 @@ position: relative;
 
 .home-icon a:hover path{
 	fill:#2BBF82;
+}
+.products-icon a:hover path{
+	fill:#E88080;
+}
+.services-icon a:hover path{
+	fill:#49A7FC;
 }
 .navbar-wrap, .navbar-wrap a{
 	color:#fff;
